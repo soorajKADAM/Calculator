@@ -2,8 +2,13 @@
     box-sizing: border-box;
   }
 body{
-    padding: 0;
+    padding:0px;
     margin: 0;
+    position: absolute;
+   
+    left: 400px;
+   
+
 }
 .component {
     background-color: black;
@@ -11,9 +16,10 @@ body{
     width: 500px;
     padding: 5px;
   }
+
   .screen {
     text-align: right;
-    padding: 30px 20px;
+    padding: 30px 30px;
     color: white;
     font-size: 30px;
   }
@@ -43,5 +49,35 @@ body{
 
   .triple {
     width: 74.5%;
+  }
+  .button-row {
+    display: flex;
+    justify-content: space-between;
+    align-content: stretch;
+    margin-bottom: 1.5%;
+  }
+  
+  
+  .cal-button:last-child {
+    background-color: rgb(255, 129, 107);
+    color: white;
+  }
+  
+  
+  .cal-button:last-child:hover {
+    background-color: tomato;
+  }
+  .cal-button:last-child:active {
+    background-color: red;
+  }
+  
+  
+  .cal-button:hover {
+    background-color: gray;
+  }
+  
+  
+  .cal-button:active {
+    background-color: rgb(73, 73, 73);
   }
   
